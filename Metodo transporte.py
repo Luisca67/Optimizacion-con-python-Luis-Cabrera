@@ -59,4 +59,4 @@ for silo in silos:
          print(f"Se envian {int(x[silo][molino].value())} camiones cargados desde {silo} hacia {molino}")
 
 #Se muestra por pantalla el costo total de transporte
-print("El costo total de transporte es : ", round(prob.objective.value(), 2))
+print("El costo total de transporte es : ", round(probl.objective.value(), 2))
